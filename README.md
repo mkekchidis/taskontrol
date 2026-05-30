@@ -27,12 +27,14 @@ Outside the Jaramillo lab, you can install the package in a conda virtual enviro
   * `conda activate taskontrol`
   * The prompt should now say `(taskontrol)`, indicating you are in the environment.
 1. Create a taskontrol rig settings file (based on the template):
+  * `cd settings`
   * `cp rigsettings_template.py rigsettings.py`
   * Edit the rigsettings.py file if necessary (for example, to set a specific `STATE_MACHINE_TYPE`)
 1. Inside that virtual environment, install the package (in development mode):
+  * `cd ..`
   * `pip install -e ./`
 1. Test the installation:
-  * `python examples/tutorial001.py`
+  * `python examples/testparadigm.py`
   * You should see a window with a big green button and an emulator window.
 
 
